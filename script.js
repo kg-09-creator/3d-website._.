@@ -18,7 +18,7 @@ const geometry = new THREE.BoxGeometry(
     1,1,1
 );
 const texture = new
-THREE.TextureLoader().load('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-LboJbnQTfROuU9_HEVrABI7p8WCz0dt8HMNI7PpWuw&s=10')
+THREE.TextureLoader().load('https://i.imgur.com/urDliVj.png')
 const material = new
 THREE.MeshBasicMaterial( {map: texture});
 const cube = new THREE.Mesh( geometry, material);
