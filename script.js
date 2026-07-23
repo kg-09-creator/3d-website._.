@@ -18,7 +18,7 @@ const geometry = new THREE.BoxGeometry(
     1,1,1
 );
 const texture = new
-THREE.TextureLoader().load('https://www.google.com/imgres?q=blahaj&imgurl=https%3A%2F%2Fwww.ikea.com%2Fus%2Fen%2Fimages%2Fproducts%2Fblahaj-soft-toy-shark__0710175_pe727378_s5.jpg%3Ff%3Ds&imgrefurl=https%3A%2F%2Fwww.ikea.com%2Fus%2Fen%2Fp%2Fblahaj-soft-toy-shark-90373590%2F&docid=lwmDR2N53qWokM&tbnid=goEV8WRAEq7gnM&vet=12ahUKEwizpO_05eeVAxVfDzQIHdqMLDQQnPAOegQINhAA..i&w=600&h=600&hcb=2&ved=2ahUKEwizpO_05eeVAxVfDzQIHdqMLDQQnPAOegQINhAA')
+THREE.TextureLoader().load('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-LboJbnQTfROuU9_HEVrABI7p8WCz0dt8HMNI7PpWuw&s=10')
 const material = new
 THREE.MeshBasicMaterial( {map: texture});
 const cube = new THREE.Mesh( geometry, material);
